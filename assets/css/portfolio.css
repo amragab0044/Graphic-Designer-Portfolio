@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+body {
+  font-family: "Domine", serif;
+  scroll-behavior: smooth;
+  background-color: #1c1c1c;
+}
+ul li .nav-link {
+    color: #ffffff;
+    transition: color 0.4s ease;
+}
+ul li .nav-link:visited {
+    color: #ffffff;
+}
+ul li .nav-link:hover {
+    color: #e60074;
+}
+ul li .nav-link:active {
+    color: #ffffff;
+}
+.content-container, .image-container {
+    flex: 1;
+}
+.job {
+    color: #e60074
+}
+.underline {
+    width: 100px;
+}
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+}
+.temp {
+    height: 250px;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.temp-img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+#seeMoreBtn {
+    color:#ffffff;
+    background-color:#e60074 ;
+    border: 1px solid #e60074;
+    transition: all 0.5s ease;
+}
+#seeMoreBtn:hover {
+    color: #d6006a;
+    background-color: #fff;
+}
+.seeMore{
+    display: block;
+}
+.seeMore-hidden {
+    display: none;
+}
+.contact-info {
+    flex: 1;
+    text-align: center;
+}
+.contact-info p {
+    color: #8f8b8b;
+    font-size: 14px;
+}
+.form-control {
+    background-color: #2b2a2a;
+    border:none;
+    padding: 12px 15px;
+    border-radius: 25px;
+}
+.form-control:focus {
+    background-color: #2b2a2a;
+    box-shadow: none;
+    border:2px solid #e60074;
+    color: #fff;
+}
+.form-control::placeholder {
+    color: #575353;
+}
+#sendMsgBtn {
+    background-color: #e60074;
+    color: #fff;
+    border: 1px solid #e60074;
+    transition: all 0.5s ease;
+}
+#sendMsgBtn:hover {
+    color: #d6006a;
+    background-color: #fff;
+}
+.project-details {
+    background-color: rgba(78, 78, 78, 0.8);
+}
+.project-details div {
+    width: 800px;
+    
+    
+
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariam Tarek-Portfolio</title>
+    <meta name="description" content="Portfolio of Mariam Tarek, graphic designer. Branding, logo design, visual identity, projects, and contact info.">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="portfolio-header position-relative vh-100">
+        <img src="assets/img/blob.png" alt="" class="blob position-absolute d-block top-0 start-0">
+        <!-- nav-bar -->
+        <div class="container">
+        <ul class="nav d-flex justify-content-end">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        </div>
+        <!-- intro-section -->    
+        <div class="d-flex">
+            <div class="content-container px-5 d-flex align-items-center">
+                <div class="content px-5 mx-4 text-white">
+                    <p class="h4 job mb-3">GRAPHIC DESIGNER</p>
+                    <p class="display-3 mb-0">Hello, my name<br>is Mariam Tarek</p>
+                    <p class=" fs-6 my-3">I’m a creative graphic designer passionate about crafting visually compelling designs that tell a story.
+                    From branding to logo design and visual identity, I blend aesthetics with functionality to bring ideas to life.
+                    Explore my portfolio to see my work in action!
+                    </p>
+                    <div class="links d-flex gap-3 mt-4">
+                        <a href="https://www.linkedin.com/feed/"><img src="assets/img/icon/linked.png" alt="linked-in" width="40px" height="40px"></a>
+                        <a href="https://www.behance.net"><img src="assets/img/icon/behance.png" alt="behance" width="40px" height="40px"></a>
+                        <a href="mailto:abulrahmanragab96@gmail.com"><img src="assets/img/icon/email.png" alt="mail" width="40px" height="40px"></a>
+                    </div>
+               </div>
+            </div>
+        <div class="image-container d-flex justify-content-center align-items-center">
+            <img src="assets/img/personal-img-Enhancer.png" alt="Portfolio Image" class="img-fluid" width="800px">
+        </div>
+        </div>
+    </div>
+    <!-- projects-section -->
+    <div class="projects-section container" id="projects">
+        <div class="text-center text-white my-5 py-5">
+            <p class="fs-2 fw-bold text-decoration-underline link-offset-3 mb-0">Projects</p>
+        </div>
+         <div class="project-card">
+            <div class="cards-grid" id="cardContainer"></div>
+            <!-- <button type="button" class="btn rounded-5 px-4 py-2 mt-5 mx-auto seeMore" id="seeMoreBtn">See More</button> -->
+         </div>
+    </div>
+    <!-- contact-section -->
+    <div class="container pt-5" id="contact">
+        <div class="text-center text-white py-5 my-5">
+            <p class="fs-2 fw-bold text-decoration-underline link-offset-3 mb-0">Contact Me</p>
+        </div>
+        <div class="d-flex flex-row justify-content-between my-5">
+            <div class="contact-info">
+                <img src="assets/img/icon/mail.pink.png" width="48px" height="48px" alt=" conatct-mail" loading="lazy">
+                <p class="mt-3">mariamtark96@gmail.com</p>
+            </div>
+            <div class="contact-info">
+                <img src="assets/img/icon/website.png" width="48px" height="48px" alt=" conatct-website" loading="lazy">
+                <p class="mt-3">www.mariamtarek.com</p>
+            </div>
+            <div class="contact-info">
+                <img src="assets/img/icon/phone-pink.png" width="48px" height="48px" alt=" conatct-phone" loading="lazy">
+                <p class="mt-3">+20 123 456 7890</p> 
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center py-5">
+            <div class="form-contact w-50">
+                <input type="text" class="form-control mb-4" placeholder="Name">
+                <input type="email" class="form-control mb-4" placeholder="Email">
+                <input type="text" class="form-control mb-4" placeholder="Phone">
+                <textarea class="form-control mb-4" rows="5" placeholder="Message"></textarea>
+                <button type="submit" class="btn rounded-5 d-block " id="sendMsgBtn">Send Message</button>
+            </div>
+        </div> 
+    </div>    
+<!-- Modal -->
+<div id="modal-container"></div>
+
+<script src="assets/js/portfolio.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
